@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Qixton — 3D digital agency website concept." />
+  <title>Qixton — Digital Experiences That Perform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Qixton home"><span class="brand-dot"></span>Qixton</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#work">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#insights">Insights</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-small" href="#contact">Start a Project <span>→</span></a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> WEB DESIGN &nbsp;/&nbsp; SEO &nbsp;/&nbsp; MARKETING</div>
+        <h1>Digital<br/>Experiences<br/>That <em>Perform</em></h1>
+        <p>Qixton is a creative digital agency helping ambitious brands grow with high-end web design, SEO and marketing that delivers real results.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">Start a Project <span>→</span></a>
+          <a class="btn btn-ghost" href="#work"><span class="play">▶</span> Watch Showreel</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>250+</strong><span>Projects Delivered</span></div>
+          <div><strong>98%</strong><span>Client Satisfaction</span></div>
+          <div><strong>4.9★</strong><span>Average Rating</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <canvas id="orb-canvas" aria-label="Interactive 3D Qixton orb"></canvas>
+        <div class="glass-card card-web tilt"><small>01</small><h3>Web Design</h3><p>Beautiful, high-converting websites.</p></div>
+        <div class="glass-card card-seo tilt"><small>02</small><h3>SEO</h3><p>More visibility. More customers.</p></div>
+        <div class="glass-card card-marketing tilt"><small>03</small><h3>Marketing</h3><p>Strategic campaigns for real growth.</p></div>
+        <div class="light-ring ring-a"></div>
+        <div class="light-ring ring-b"></div>
+        <div class="scroll-note">SCROLL TO EXPLORE <span></span></div>
+      </div>
+    </section>
+
+    <section class="logo-strip reveal" aria-label="Capabilities">
+      <span>Strategy</span><span>Design</span><span>Development</span><span>SEO</span><span>Performance</span><span>Growth</span>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-heading reveal">
+        <div class="eyebrow"><span></span> OUR SERVICES</div>
+        <h2>Everything You Need<br/>to <em>Grow Online</em></h2>
+        <p>From stunning websites to data-driven marketing, Qixton gives your business the tools, strategy and creativity to stand out and scale.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card tilt reveal"><div class="icon3d cube">◆</div><h3>Web Design</h3><p>Modern, high-converting websites that make an impression.</p><a href="#contact">Learn More →</a></article>
+        <article class="service-card tilt reveal"><div class="icon3d">⌕</div><h3>SEO</h3><p>Boost visibility and get found by the right audience.</p><a href="#contact">Learn More →</a></article>
+        <article class="service-card tilt reveal"><div class="icon3d bars">▥</div><h3>Digital Marketing</h3><p>Strategic campaigns that drive measurable growth.</p><a href="#contact">Learn More →</a></article>
+        <article class="service-card tilt reveal"><div class="icon3d">◉</div><h3>Brand Strategy</h3><p>A clear identity and positioning that sets you apart.</p><a href="#contact">Learn More →</a></article>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-heading reveal">
+        <div class="eyebrow"><span></span> FEATURED WORK</div>
+        <h2>Real Brands.<br/><em>Real Results.</em></h2>
+        <p>Selected concept work showing the type of visual direction Qixton can deliver.</p>
+      </div>
+      <div class="work-grid">
+        <article class="project-card reveal"><div class="project-art p1"><span>ALDERA</span></div><h3>Aldera</h3><p>Luxury Brand Website</p></article>
+        <article class="project-card reveal"><div class="project-art p2"><span>VYNTO</span></div><h3>Vynto</h3><p>Ecommerce & Marketing</p></article>
+        <article class="project-card reveal"><div class="project-art p3"><span>LUME</span></div><h3>Lume</h3><p>SEO & Growth Strategy</p></article>
+        <article class="project-card reveal"><div class="project-art p4"><span>FORM</span></div><h3>Form</h3><p>Web Design & Branding</p></article>
+      </div>
+    </section>
+
+    <section class="impact section reveal" id="about">
+      <div class="impact-grid">
+        <div><strong>250+</strong><span>Brands Supported</span></div>
+        <div><strong>3.5x</strong><span>Average ROI Increase</span></div>
+        <div><strong>10M+</strong><span>People Reached</span></div>
+        <div><strong>98%</strong><span>Client Satisfaction</span></div>
+      </div>
+    </section>
+
+    <section class="section insights" id="insights">
+      <div class="section-heading reveal">
+        <div class="eyebrow"><span></span> HOW WE WORK</div>
+        <h2>A Smoother Path<br/>From Idea to <em>Impact.</em></h2>
+      </div>
+      <div class="process-grid">
+        <article class="process-card reveal"><b>01</b><h3>Discover</h3><p>We understand your business, audience and opportunity.</p></article>
+        <article class="process-card reveal"><b>02</b><h3>Create</h3><p>Strategy, design and content built around your goals.</p></article>
+        <article class="process-card reveal"><b>03</b><h3>Build</h3><p>Fast, responsive, conversion-focused digital experiences.</p></article>
+        <article class="process-card reveal"><b>04</b><h3>Grow</h3><p>SEO, campaigns, optimization and ongoing improvement.</p></article>
+      </div>
+    </section>
+
+    <section class="section contact-wrap" id="contact">
+      <div class="contact-card reveal">
+        <div>
+          <div class="eyebrow"><span></span> READY TO GROW?</div>
+          <h2>Let’s Build<br/><em>What’s Next.</em></h2>
+          <p>Turn your goals into real results. Partner with Qixton and let’s create something extraordinary.</p>
+        </div>
+        <a class="btn" href="mailto:hello@qixton.com">Start a Conversation <span>→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#home"><span class="brand-dot"></span>Qixton</a>
+    <p>Strategy. Design. Marketing. Real Results.</p>
+    <span>© <span id="year"></span> Qixton</span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.168.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
